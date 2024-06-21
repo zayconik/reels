@@ -1,0 +1,75 @@
+.videoFooter{
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.videoFooterText{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.videoFooterText > h3{
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.videoFooterText >h3 >button{
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+}
+
+.videoFooterTicker{
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.videoFooterTicker >H3{
+    font-size: 12px;
+    color: white;
+    padding-top: 50px;
+}
+
+.marquee{
+    width: 80%;
+}
+
+.musicIcon{
+    position: absolute;
+    color: white;
+    left: 5px;
+}
+
+
+.videoFooterActions{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 80%;
+    color: white;
+    justify-content: space-between;
+    margin-top: 77px;
+}
+
+.videoFooterActionsLeft>*{
+    padding: 0 5px;
+}
+
+.videoFooterActionsRight{
+    display: flex;
+    /* margin-right: -155px; */
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.stats>p{
+    margin-left: 3px;
+}
